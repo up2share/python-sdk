@@ -3,8 +3,6 @@
 [![PyPI version](https://badge.fury.io/py/u2s-sdk.svg)](https://badge.fury.io/py/u2s-sdk)
 [![Build Status](https://travis-ci.com/up2share/u2s-sdk.svg?branch=master)](https://travis-ci.com/up2share/u2s-sdk)
 [![codecov](https://codecov.io/gh/up2share/u2s-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/up2share/u2s-sdk)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4b6b5b9b0b9a4b6e9b8b2b8b2b8b2b8b)](https://www.codacy.com/app/up2share/u2s-sdk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=up2share/u2s-sdk&amp;utm_campaign=Badge_Grade)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/4b6b5b9b0b9a4b6e9b8b2b8b2b8b2b8b)](https://www.codacy.com/app/up2share/u2s-sdk?utm_source=github.com&utm_medium=referral&utm_content=up2share/u2s-sdk&utm_campaign=Badge_Coverage)
 [![Documentation Status](https://readthedocs.org/projects/u2s-sdk/badge/?version=latest)](https://u2s-sdk.readthedocs.io/en/latest/?badge=latest)
 
 This README provides a step-by-step guide on how to use the `u2s-sdk` to perform a resumable file upload using Python. The `u2s-sdk` is a library that helps you easily upload large files to the [Up2Share](https://up2sha.re/) platform with resumable uploads.
