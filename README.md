@@ -16,35 +16,33 @@ Before you get started, ensure you have the following:
 
 ## Getting Started
 
-1. Clone or download the `u2s-sdk` library from the [GitHub repository](https://github.com/up2share/u2s-sdk).
-
-2. Install the required dependencies:
+1. Install the required dependencies:
 
    ```bash
-   pip install -r requirements.txt
+   pip install u2s_sdk
    ```
 
-3. Include the `u2s-sdk` in your project:
+2. Include the `u2s-sdk` in your project:
 
    ```python
    from u2s_sdk.handler import ResumableUploadHandler
    from u2s_sdk.client import ApiClient
    ```
 
-4. Create an Up2Share `ApiClient` instance by providing your API key and the base URL:
+3. Create an Up2Share `ApiClient` instance by providing your API key and the base URL:
 
    ```python
    api_key = 'your_api_key'
    api_client = ApiClient('https://api.up2sha.re', api_key=api_key, timeout=60)
    ```
 
-5. Initialize the `ResumableUploadHandler` using the `ApiClient`:
+4. Initialize the `ResumableUploadHandler` using the `ApiClient`:
 
    ```python
    handler = ResumableUploadHandler(api_client)
    ```
 
-6. Specify the file you want to upload, the chunk size, and open the file:
+5. Specify the file you want to upload, the chunk size, and open the file:
 
    ```python
    file_name = 'your_file.mp4'
@@ -55,7 +53,7 @@ Before you get started, ensure you have the following:
        handler.simulate_chunk_upload(file, chunk_size, filename=file_name)
    ```
 
-7. Save and run your Python script.
+6. Save and run your Python script.
 
 ## Uploading Large Files
 
