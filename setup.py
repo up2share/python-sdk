@@ -8,7 +8,7 @@ setup(
     version='0.1.0',
     description='Up2Share SDK for Python',
     author='Corentin Chepeau',
-    author_email='corentin.chepeau@email.com',
+    author_email='contact+python@up2sha.re',
     packages=find_packages(),
     install_requires=requirements,
 )
