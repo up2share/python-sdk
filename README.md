@@ -19,7 +19,7 @@ Before you get started, ensure you have the following:
 1. Install the required dependencies:
 
    ```bash
-   pip install u2s_sdk
+   pip install u2s-sdk
    ```
 
 2. Include the `u2s-sdk` in your project:
