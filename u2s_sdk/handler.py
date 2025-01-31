@@ -1,3 +1,8 @@
+"""
+Handler module.
+
+u2s_sdk.handler
+"""
 import os
 import json
 
@@ -6,13 +11,23 @@ from .client import ApiClient
 
 
 class ResumableUploadHandler:
+    """
+    Resumable upload handler.
+    """
+
     def __init__(self, api_client: ApiClient):
+        """
+        Constructor.
+
+        :param api_client: The API client
+        """
         self.api_client = api_client
         self.logger = api_client.get_logger()
 
     def start_upload(self, filename: str, total_size: int, content_type='application/octet-stream'):
         """
         Start a resumable upload.
+
         :param filename: The filename
         :param total_size: The total file size (in bytes)
         :param content_type: The content type (default: application/octet-stream)
@@ -43,6 +58,7 @@ class ResumableUploadHandler:
     def upload_chunk(self, upload_uri: str, total_size: int, chunk_data: bytes, chunk_start: int, chunk_end: int):
         """
         Upload a chunk of data.
+
         :param upload_uri: The upload URI (obtained from the response of the start_upload method)
         :param total_size: The total file size (in bytes)
         :param chunk_data: The chunk data (bytes)
@@ -78,6 +94,7 @@ class ResumableUploadHandler:
     def simulate_chunk_upload(self, buffer: bytes, chunk_size=5242880, filename=None):
         """
         Simulate chunk upload.
+
         :param buffer: The file buffer
         :param chunk_size: The chunk size in bytes (default: 5 MB)
         :param filename: The filename (default: random filename)

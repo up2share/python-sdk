@@ -1,7 +1,15 @@
+"""
+u2s_sdk.utils
+"""
 from urllib.parse import urlparse, parse_qs
 
 
-def get_key_value_from_uri(uri):
+def get_key_value_from_uri(uri: str):
+    """
+    Get the key value from a URI.
+    :param uri: The URI
+    :return: The upload key value
+    """
     # Parse the URI
     parsed_uri = urlparse(uri)
 
