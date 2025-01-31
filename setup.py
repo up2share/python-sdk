@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='u2s_sdk',
-    version='0.2.0',
+    version='0.3.0',
     description='Up2Share SDK for Python',
     author='Corentin Chepeau',
     author_email='contact+python@up2sha.re',

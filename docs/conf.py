@@ -50,10 +50,10 @@ html_static_path = ['_static']
 # built documents.
 #
 # The short X.Y version.
-version = "0.2"
+version = "0.3"
 # The full version, including alpha/beta/rc tags.
-release = "0.2.0"
+release = "0.3.0"
 
-release_date = "October 19, 2023"
+release_date = "January 31, 2025"
 
 site_base = os.environ.get("RTD_SITE_BASE", "https://up2sha.re")
