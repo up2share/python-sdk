@@ -65,6 +65,27 @@ If any issues occur during the upload process, the `ResumableUploadHandler` clas
 
 ## Development
 
+### Run tests
+
+First, make sure you have installed the required dependencies:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+Then, run the tests:
+
+```bash
+pytest
+```
+
+### Build Sphinx documentation
+
+```bash
+cd docs
+make html
+```
+
 ### Install package
 
 ```bash
