@@ -1,4 +1,4 @@
 sphinx
 m2r
-pytest==8.3.5
+pytest==8.4.0
 pytest-mock==3.14.0
